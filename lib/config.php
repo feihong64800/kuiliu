@@ -1,0 +1,32 @@
+<?php
+$pay_config = array(
+	//站点标题
+	'title'=>"全自动购物系统",
+	
+	//站点描述
+	'describe'=>"土豪们啊你们都是有钱的人呐～谁有那多余的零钱？给我这流浪的人啊...",
+	
+	//站点关键词
+	'keywords'=>"全自动打赏系统,幽梦,幽梦数据,蓝优",
+	
+	//站长QQ
+	'qq'=>"535718171",
+	
+	//站长昵称
+	'name'=>"葵柳",
+	
+	//站长签名
+	'qqinfo'=>"青青园中葵，郁郁园中柳",
+
+	//签名方式,默认为RSA2(RSA2048)
+	'signType' =>"RSA2",
+	
+	//支付宝公钥
+	'public_key' =>"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjA6AOJCQx9IuVbCs3A77jqBS8CFgsQ/NSPKApBomHeWYOciL7aH+et8VNXmC2scRhveFD2cCO6MSn/LRgKkPJJZMi7L0MRKpqX8RlcNu8EralPAa5DiibdPYwc4fow7EUVC1QWTxJy2JO5DBnAaa4n6/xv/aV0xgOBBmWi4cglNxWdNuib3BWWKBhh9zeWQSEe8rgSS3rAYdGL4ueZ11AAKsSsWbu82rA5ra0tZ7iU3yeELtleRZcGkKjqe+MIQQFoLHAqzhkI9MYRvpXMDIn9MyFVmr8plJpVjY48YEXNOc5X6fRSIIe50QCpXQ1DCgLSimbb2tGvnGuRBBGqGNNwIDAQAB",
+	
+	//商户私钥
+	'private_key' =>"MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpqhOXLATFYE4RGBMxH4ByCETA8oK0ZZzW8rFKqDLoxagIH0U/UeW7A/7cGlLT+walQgHUCXGi2xFdAjLDSbwdUSX3kgzLbeBu39BnP3KlxZN905x6BAbmIDBRxJpuzO/ZJi9xSZePY8YdBacxSLlqIiSBk+OhQqthmuBOCCazY82RctDXrYR6hsmqAsLEXdn2WS3H6Icm+xAMEirRq3fK09XcQL1C3Fx4Kxa7UAt/k9sNzTpbHBioWGDwGa4yiFDHI5MbGI9+QAvoouui6MZg5f7OvTSxD8d0t8VIjWVKnz49hfQhm5eqeV3x7P4AgDnEfUf8IHhJwafo0Is6nRJ1AgMBAAECggEAOeDoP/jnQ8H/v7sbyPU7JyuE8OGKDype38D5FEPe4iOTl/m68Mfqe+r4BXQBb4lCEhw7bW8vUeQzvyvhz1cXElU9g4BSVw+LsacufBpb7QtCrnkC92jqRZUThsFwAX5uEAEDzDzTtDnQOtRT3e82OWueUon17GxG9MwV2ujS8vz4+tOOrAsvXSAlYhswqKiltC+6ZqlClXqQxvG+xZQE0IydSlLrF8ao7ZMynuNCS7vqSbJj9eWQKC6wqYcb23lVFt9C89Mm2MulUw14Ulx7XM1IhRkFzra4WjgOLFK2p9MIdpgtRPpU4B1XhI/Io0iwxS12Bj3Mb+J7QVys+vcuPQKBgQDoSj119QbB23Dk501WBYjHGRAl6BCO/dxpa/mpXWQsDw9+HT8UUJQ/dDVUYQcXZTfY/AToCxcqNbHMTwwQzAczEoPgvWXmvUMSgEddZhH71Y8BwFG7zlaRDcGC3vjwxgoaDhz/MDhWZEEKiTQAgaf4dJw6YxwNraErTEooJ5+SZwKBgQC6+2wpwW9bmOV5jsA/jUVUrDEalIOq6B/rQQ/FrEM84xVPuz+RfNvukcAw9srhfvM5TMeJDeuxnS4H7BddxkNeQu1hGbb61P+D0F2IQyxmD/yvjfv01FXmryQ9h7gT+8w/42qy5+NpRwTh+DS+2UcG8zf14xTaBwHdy0dBld5CwwKBgFjQ2gMZ9sV0hAvhrJ4xa4TEvnnf60ThJ79fO4xYWw7Fi2TrBc1cqfJBGorytmVpnBro8W9PnkHTWfIGX1SkzjPm5mmtwSKiRtzyE1dQyZuCojVHNXkbgdngapcBbimRbxdbQhcIduIBXyUKJMn0ySakX3+rmXRZaQBHISuNSuQNAoGADG/CnvhdtsLxqGclRFTaIqqdTX5JT6nGzbfzG5u8kSUterMipEOgwTpyhQ81KVBvTwVbVDNX1OV2dVJvr24Ldw6OiWHTeNWH9TV7sx98qYEwtmCEPKGO4RwPFgSb6sBZsnom06V2y77MhVcj8vmyrrSoqTMkZOgIaL8niyYztU8CgYAMEyD3UTLkuDGY6tTvY2JnOBxgF7mqg6RItDnQ/7wVtpNBRvGhwo+CJLy+ShrUlMEB8gswAjSGmorfrT4rY7ZiJ/UBpp2rJ9b4L9xCnY9IN0LdLcyW+be60qZumeGY/+imDCbdKVQsELw/ryJTuO2Zi9MDUo2Hy7/+CURH3VQOpQ==",
+	
+	//应用ID
+	'appid' =>"2021002127677133" //https://open.alipay.com 账户中心->密钥管理->开放平台密钥，填写添加了电脑网站支付的应用的APPID
+);

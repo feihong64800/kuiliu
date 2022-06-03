@@ -1,7 +1,12 @@
-# Getting Started on Okteto with PHP
+# 支付宝当面付
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/okteto/php-getting-started)
+#### Alipay
+通过单文件版整合集成当面付源码
+#### V1.1更新
+1. 重新架构，UI重写
+2. H5支付唤醒
+3. 前端一键配置
+#### 使用说明
 
-This example shows how to leverage [Okteto](https://github.com/okteto/okteto) to develop a PHP Sample App directly in Kubernetes. 
-
-This is the application used for the [How to Develop and Debug PHP Applications in Kubernetes](https://okteto.com/blog/how-to-develop-php-apps-in-kubernetes/) blog post.
+1.  lib是类库，无需修改
+2.  使用前请在数据文件中配置好当面付公钥和私钥 lib/config.php
